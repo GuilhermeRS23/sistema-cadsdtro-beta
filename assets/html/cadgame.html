@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cadgame.css">
+    <title>Cadastro de Jogos</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card_cadastrar">
+            <h1>Cadastro de Games</h1>
+            <div id="msgError"></div>
+            <div id="msgSucess"></div>
+            <div class="label-float">
+                <input type="text" id="game" placeholder="" required>
+                <label id="label_game" for="game">Nome do Game</label>
+            </div>
+
+            <div class="label-float">
+                <input type="text" id="genero" placeholder="" required>
+                <label id="label_genero" for="genero">Gênero</label>
+            </div>
+
+            <div class="label-float">
+                <input type="text" id="dev" placeholder="" required>
+                <label id="label_dev" for="dev">Desenvolvedora</label>
+            </div>
+
+            <div class="label-float">
+                <input type="date" id="release" placeholder="" required>
+                <label id="label_release" for="release">Data de Lançamento</label>
+            </div>
+
+            <div class="label-float">
+                <input type="text" id="plataforma" placeholder="" required>
+                <label id="label_plataforma" for="plataforma">Plataformas</label>
+            </div>
+
+            <div class="label-float">
+                <input type="link" id="link" placeholder="" required>
+                <label id="label_link" for="link">Link da Imagem</label>
+            </div>
+
+            <div class="justify-center">
+                <button onclick="cadastrar()">Cadastrar</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="../js/cadgame.js"></script>
+</body>
+
+</html>
