@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Play:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Play', sans-serif; 
+}
+
+input {
+color: aliceblue;
+}
+
+body {
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-abstrato-de-meio-tom_23-2148594392.jpg?w=826&t=st=1688081127~exp=1688081727~hmac=40cdaaa82d568f769083df0a80dda5489e3749e5ae86e94c6c5128bdcfab57af);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card {
+    background-color: #239b2354;
+    padding: 30px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 5px 0px #ffffff85;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fdfdfd;
+}
+
+.label-float input {
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #84f160;
+    background-color: #84f16010;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+.label-float {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus {
+    border-bottom: 2px solid #d2f7c7;
+}
+
+.label-float label {
+    color: #ffffff;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label {
+    font-size: 13px;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+button {
+    background-color: transparent;
+    border-color: #d6f5cc;
+    color: #84f160;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background-color: #84f160;
+    color: #000;
+    transition: all .3s ease-out;
+}
+
+.justify-center{
+  display: flex;
+  justify-content: center;  
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 75%;
+}
+
+p{
+    color:#84f160;
+    font-size: 14pt;
+    text-align:center;
+}
+
+a{
+    color: #d2f7c7;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+a:hover{
+    color: #84f160;
+}
+
+#msgError{
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 4px;
+  border-radius: 4px;
+  display: none;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/signin.css">
+    <title>Sign-in</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Entrar</h1>
+
+            <div id="msgError"></div>
+
+            <div class="label-float">
+                <input type="email" id="email" placeholder="" required>
+                <label id="email_label" for="email">E-mail do Usuário</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="senha" placeholder="" required>
+                <label id="senha_label" for="senha">Senha</label>
+            </div>
+            <div class="justify-center">
+                <button onclick="entrar()">Entrar</button>
+            </div>
+            <div class="justify-center">
+                <hr>
+            </div>
+            <p>Não possui uma conta?
+                <a href="./signup.html">Cadastre-se</a>
+            </p>
+
+        </div>
+    </div>
+    <script src="../js/signin.js"></script>
+</body>
+
+</html>
