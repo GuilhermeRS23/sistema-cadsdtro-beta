@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <header>
+<nav class="navbar">
+    <h1 id='logado'>Olá, Visitante!</h1>
+    <ul class="nav-menu">
+        <li>
+            <a id="cad" href="./assets/html/cadgame.html">Cadastrar Jogo</a> 
+        </li>
+        <li>
+            <a id="login" href="assets/html/signin.html">Login</a>
+        </li>
+        <li>
+            <button id="sair" onclick="sair()">Sair</button>
+        </li>
+    </ul>
+</nav>
+
+    </header>
+
+    <main>
+        <h1>Lista de Jogos</h1>
+        <span>Lista de Jogos adicionados</span>
+
+        <table>
+            <th><strong>
+                    <img id="img" src=" " alt="mostrar imagem" width height=200></strong>
+                <br>
+                <strong id="game"></strong>
+                <br>
+                <strong id="genero"></strong>
+                <br>
+                <strong id="dev"></strong>
+                <br>
+                <strong id="release"></strong>
+                <br>
+                <strong id="plataforma"></strong>
+                <br>
+            </th>
+        </table>
+    </main>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
